@@ -1,3 +1,50 @@
-Welcome to the website of Guillem Boada
-
-me@guillemboada.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guillem Boada</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .background {
+            background-image: url('media/NeuronsWallpaper.jpg');
+            height: 100%; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .content {
+            color: white;
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Makes the image circular */
+            margin-bottom: 20px;
+            border: 4px solid white; /* Optional: adds a white border around the image */
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <img src="media/BoadaPhoto.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Guillem Boada</h1>
+            <p>Data Scientist</p>
+            <p>Welcome to my personal website!</p>
+            <p><a href="mailto:me@guillemboada.com" style="color: lightblue;">me@guillemboada.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
