@@ -47,15 +47,35 @@
             height: 30px; /* Set a fixed height */
             object-fit: contain; /* Ensures the icon fits well without distorting */
         }
+        button {
+            background-color: #2F5C95; /* Green background */
+            border: none; /* Remove borders */
+            color: white; /* White text */
+            padding: 5px 16px; /* Add some padding */
+            text-align: center; /* Center the text */
+            text-decoration: none; /* Remove underline */
+            display: inline-block; /* Make the button inline-block */
+            font-size: 16px; /* Increase font size */
+            margin: 2px 1px; /* Add some margin */
+            margin-bottom: 25px;
+            cursor: pointer; /* Add a pointer cursor on hover */
+            border-radius: 12px; /* Rounded corners */
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+
+        button:hover {
+            background-color: #2a5388; /* Darker green on hover */
+        }
     </style>
+    <script src="button.js"></script>
 </head>
 <body>
     <div class="background">
         <div class="content">
             <img src="media/boada-pic.jpg" alt="Profile Picture" class="profile-pic">
             <h1>Guillem Boada</h1>
-            <p>Data Scientist</p>
-            <div></div>
+            <p id="description">🥁🥁🥁...</p>
+            <button id="changeTextButton">Show!</button>
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/guillemboada" target="_blank">
                     <img src="media/linkedin-icon.svg" alt="LinkedIn">
