@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Add an event listener to the button
     button.addEventListener("click", function() {
         // Change the text of the paragraph
-        description.textContent = "Data Scientist";
+        description.textContent = "AI Research Engineer";
         // Hide the button
         button.style.display = "none";
     });
